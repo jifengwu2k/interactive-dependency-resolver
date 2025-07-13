@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "interactive-dependency-resolver"
+version = "0.1.0-a0"
+description = "A tool to interactively resolve Python wheel dependencies."
+readme = "README.md"
+requires-python = ">=2"
+license = "AGPL-3.0"
+authors = [
+  { name="Jifeng Wu", email="jifengwu2k@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "packaging",
+    "python-dateutil",
+    "sortedcontainers",
+    "strcompat"
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/jifengwu2k/interactive-dependency-resolver"
+"Bug Tracker" = "https://github.com/jifengwu2k/interactive-dependency-resolver/issues"
